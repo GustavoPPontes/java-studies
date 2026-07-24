@@ -9,8 +9,8 @@ Mastering Java development to land my first job/internship.
 
 | Module                    | Theme                                    | Status        |
 | ------------------------- | ---------------------------------------- | ------------- |
-| module-00-foundation      | Environment, Git and Logic               | 🔄 In progress |
-| module-01-syntax          | Java Syntax and Control Structures       | ⏳ Pending     |
+| module-00-foundation      | Environment, Git and Logic               | ✔️ Completed   |
+| module-01-syntax          | Java Syntax and Control Structures       | 🔄 In progress |
 | module-02-oop             | Object-Oriented Programming              | ⏳ Pending     |
 | module-03-advanced-java   | Collections, Streams and Utility Classes | ⏳ Pending     |
 | module-04-data-structures | Data Structures                          | ⏳ Pending     |
