@@ -1,4 +1,4 @@
-package sessao02;
+package session02;
 
 /*
     * Study/Coding session 0.2 - Setting up a development environment.
