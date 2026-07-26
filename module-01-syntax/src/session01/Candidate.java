@@ -1,7 +1,7 @@
 package session01;
 
 /*
-    * Study/Coding Session 0.1 (Module 01) - Data Types, Variables and Keywords
+    * Study/Coding Session 1.1 (Module 01) - Data Types, Variables and Keywords
     * Pratical problem: Create a program that declares variables to represent a candidate (name, age, exam score, whether they are approved or not, and interest area)
     * 
     * Applied concepts:
