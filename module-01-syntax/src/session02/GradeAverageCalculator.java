@@ -75,16 +75,16 @@ public class GradeAverageCalculator {
         // Indicates whether the student passed with an average above 7 and at least 60% correct answers on the test.
         // 'Failed', 'Approved with reservations', or 'Approved with distinction' based on the average.
         String studentApprovalStatus;
+        boolean haspassed = false;
         if (average >= 7 && percentageCorrect >= 80){
-            studentApprovalStatus = "Approved with distinction";
+            studentApprovalStatus = "Approved with distinction.";
+            haspassed = true;
         } else if (average >= 5 || percentageCorrect >= 60){
-            studentApprovalStatus = "Approved with reservations";
+            studentApprovalStatus = "Approved with reservations.";
+            haspassed = true;
         } else {
-            studentApprovalStatus = "Failed";
+            studentApprovalStatus = "Failed.";
         }
-
-        // Testing the ternary operator to show the results of approval or failure.
-        String result = (studentApprovalStatus.equals("Approved with distinction") || studentApprovalStatus.equals("Approved with reservations")) ? "Congratulations! You Passed!" : "Sorry, but you failed...";
 
         System.out.println("=====================================\n");
 
@@ -99,7 +99,8 @@ public class GradeAverageCalculator {
         System.out.println("So, you've got " + percentageCorrect + "%");
         System.out.println("\nYou need an average grade of 7.0 AND 80% on the 20-question test to be \"Approved with distinction\"\n(or at least an average grade of 5.0 OR 60% on the 20-question test to be \"Approved with reservations\").");
         System.out.println("Here's your status: " + studentApprovalStatus);
-        System.out.println(result);
+        // Testing the ternary operator to show the results of approval or failure.
+        System.out.println(haspassed ? "Congratulations! You Passed!" : "Sorry, but you failed...");
         System.out.println("\n=====================================");
 
         scanner.close();
